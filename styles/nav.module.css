@@ -24,18 +24,32 @@
 .logo{
     font-size: 1.8em;
     color: var(--primaryBrown);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.navLi{
+.icon{
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.linktext , .navLi{
     margin: 0 5px;
     width: 120px;
-    padding: 10px 0px;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
 }
 
-.navLi.active{
+.linktext{
+    padding: 10px;
+}
+
+.linktext.active{
     background-color: var(--primaryBrown);
     color: #fff;
 }
@@ -53,8 +67,93 @@
     opacity: 0;
 }
 
+.ulContainerMobile{
+    height: 100vh;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    left: -100%;
+    bottom: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    transition: 0.5s left ease-in-out;
+}
+
+.ulContainerMobile.open{
+    left: 0;
+}
+.navUlMobile{
+    width: 100%;
+}
+.navUlMobile .navLi{
+    border-bottom: 1px solid #dbdbdb;
+    border-radius: 0;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+
+.navUlMobile .linktext{
+    border-bottom: 1px solid #dbdbdb;
+    border-radius: 0;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 20px 20px;
+}
+
+.mobileLogo{
+    font-size: 2em;
+    margin: 12px;
+    color: var(--primaryBrown);
+}
+
+.toggle{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: var(--primaryBrown);
+    box-shadow: 5px 5px 10px #00000020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.toggle::before{
+    position: absolute;
+    content: "";
+    border-radius: 3px;
+    transform:rotate(-405deg);
+    width: 26px;
+    height: 3px;
+    background-color: #fff;
+}
+.toggle::after{
+    position: absolute;
+    content: "";
+    border-radius: 3px;
+    transform:rotate(225deg);
+    width: 26px;
+    height: 3px;
+    background-color: #fff;
+}
+
+
 @media only screen and (max-width:950px){
     .ulContainer{
         display: none;
+    }
+
+    .nav{
+        padding: 20px;
+    }
+
+    .icon{
+        display: flex;
     }
 }

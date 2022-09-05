@@ -1,12 +1,10 @@
-import styles from "../styles/Home.module.css";
 import Navigation from "../comps/nav";
 import style from "../styles/Home.module.css";
 import Image from "next/image";
-import o1 from "../assests/office/1.jpg";
-import o2 from "../assests/living-room/8.jpg";
-import o3 from "../assests/dinning-room/1.jpg";
-import o4 from "../assests/bedroomracks/1.jpg";
-import cardstyle from "../styles/infoCard.module.css";
+import o1 from "../assests/office/1.webp";
+import o2 from "../assests/living-room/8.webp";
+import o3 from "../assests/dinning-room/1.webp";
+import o4 from "../assests/bedroomracks/1.webp";
 import Script from "next/script";
 import { useState, useEffect } from "react";
 import Section from "../comps/section";
@@ -16,12 +14,12 @@ import ImageCard from "../comps/imageCard";
 import modularKitchen from "../assests/services/kitchen.webp";
 import wardrode from "../assests/services/wardrobe.webp";
 import sofa from "../assests/services/sofa.webp";
-import stydytable from "../assests/services/studytable.jpg";
-import fallceling from "../assests/services/fallceling.jpg";
-import lights from "../assests/services/lights.jpg";
-import wallpapers from "../assests/services/wall papers.jpg";
-import wallpaint from "../assests/services/wallpaint.jpg";
-import bathroom from "../assests/services/bathroom.jpg";
+import stydytable from "../assests/services/studytable.webp";
+import fallceling from "../assests/services/fallceling.webp";
+import lights from "../assests/services/lights.webp";
+import wallpapers from "../assests/services/wall papers.webp";
+import wallpaint from "../assests/services/wallpaint.webp";
+import bathroom from "../assests/services/bathroom.webp";
 import ImageCardnoBorder from "../comps/imageCardNoBroder";
 import date from "../assests/steps/booking.svg";
 import meeting from "../assests/steps/meeting.svg";
@@ -29,20 +27,18 @@ import quote from "../assests/steps/quote.svg";
 import payment from "../assests/steps/payment.svg";
 import deliverly from "../assests/steps/delever.svg";
 import Footer from "../comps/footer";
+import Head from "next/head";
 export default function Home() {
   // const [imgVal, setImg] = useState(o1);
-  const [bgVal, setbg] = useState("../background/3.png");
+  const [bgVal, setbg] = useState("../background/3.webp");
   const [count, setCount] = useState(1);
   // const [countImage, setCountimg] = useState(1);
   // const imgArray = [o1, o2, o3, o4];
   const bgArray = [
-    "../background/3.png",
-    "../background/4.png",
-    "../background/5.png",
-    "../background/2.jpg",
-    "../background/6.png",
-    "../background/7.png",
-    "../background/9.png",
+    "../background/3.webp",
+    "../background/5.webp",
+    "../background/2.webp",
+    "../background/9.webp",
   ];
   useEffect(() => {
     const interval = setInterval(() => {
@@ -69,7 +65,10 @@ export default function Home() {
         nomodule
         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
       ></Script>
-      <Navigation></Navigation>
+      <Head>
+        <title>Best Interior Designers in Delhi NCR - N.N. Interiors</title>
+        <meta name="description" content="we are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more."></meta>
+      </Head>
       <div className={style.hero}>
         
         <div className={style.left}>
@@ -88,23 +87,17 @@ export default function Home() {
         </div>
         <div className={style.overlaycontainer}>
         <div className={style.overlay} style={{
-          backgroundImage:"url(../background/3.png)",
+          backgroundImage:"url(../background/3.webp)",
+        }}></div>
+         
+          <div className={style.overlay} style={{
+          backgroundImage:"url(../background/5.webp)",
         }}></div>
           <div className={style.overlay} style={{
-          backgroundImage:"url(../background/4.png)",
+          backgroundImage:"url(../background/2.webp)",
         }}></div>
-          <div className={style.overlay} style={{
-          backgroundImage:"url(../background/5.png)",
-        }}></div>
-          <div className={style.overlay} style={{
-          backgroundImage:"url(../background/2.jpg)",
-        }}></div>
-          <div className={style.overlay} style={{
-          backgroundImage:"url(../background/6.png)",
-        }}></div><div className={style.overlay} style={{
-          backgroundImage:"url(../background/7.png)",
-        }}></div><div className={style.overlay} style={{
-          backgroundImage:"url(../background/9.png)",
+        <div className={style.overlay} style={{
+          backgroundImage:"url(../background/9.webp)",
         }}>
         </div>
         </div>
@@ -197,32 +190,17 @@ export default function Home() {
           ></ImageCard>
         </div>
       </div>
-
-      <div className={cardstyle.card}>
-        <div className={cardstyle.cardLeft}>
-          <h3 className={`${cardstyle.cardHeading} curveFont`}>
-            Construction + Inetrior
-          </h3>
-          <p className={cardstyle.cardText}>
-            We provide full construction plus interior facility. We will build
-            your place up from ground we have perfect team for your build. We
-            provide all materials with labour and installation. Contact us for
-            more information.
-          </p>
-          <button className={cardstyle.cardButton}>Contact us now</button>
-        </div>
-        <div className={cardstyle.cardRight}>
-          <div className={cardstyle.cardImgContainer}>
-            <Image
-              layout="fill"
-              src={o2}
-              alt="interior designs by nn interiors"
-            ></Image>
-          </div>
-        </div>
-      </div>
+      <InfoCard
+        cardHeading="Construction + Inetrior"
+        cardText="We provide full construction plus interior facility. We will build
+        your place up from ground we have perfect team for your build. We
+        provide all materials with labour and installation. Contact us for
+        more information."
+        cardImage={o2}
+      ></InfoCard>
+      
       <div className={style.gridGreenWrap}>
-        <Section heading="Complete Interiors in 5 easy steps"></Section>
+        <Section heading="Complete Interior in just 5 easy steps"></Section>
         <div className={style.grid}>
           <ImageCardnoBorder
             number="1"
@@ -246,7 +224,7 @@ export default function Home() {
             number="4"
             src={payment}
             alt="payment"
-            text="Do a initial payment to book the design and expert and to initiate the project."
+            text="Do a initial payment to book the design expert and to initiate the project."
           ></ImageCardnoBorder>
           <ImageCardnoBorder
             number="5"
@@ -269,7 +247,6 @@ export default function Home() {
         cardImage={o4}
       ></InfoCard>
 
-      <Footer></Footer>
     </div>
   );
 }
