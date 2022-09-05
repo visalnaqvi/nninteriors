@@ -86,18 +86,32 @@ export default function Home() {
                 <Image layout={"fill"} src={imgVal} alt="interior"></Image>
               </div> */}
         </div>
+        <div className={style.overlaycontainer}>
         <div className={style.overlay} style={{
           backgroundImage:"url(../background/3.png)",
+        }}></div>
+          <div className={style.overlay} style={{
           backgroundImage:"url(../background/4.png)",
+        }}></div>
+          <div className={style.overlay} style={{
           backgroundImage:"url(../background/5.png)",
-          backgroundImage:"url(../background/2.png)",
+        }}></div>
+          <div className={style.overlay} style={{
+          backgroundImage:"url(../background/2.jpg)",
+        }}></div>
+          <div className={style.overlay} style={{
           backgroundImage:"url(../background/6.png)",
+        }}></div><div className={style.overlay} style={{
           backgroundImage:"url(../background/7.png)",
+        }}></div><div className={style.overlay} style={{
           backgroundImage:"url(../background/9.png)",
         }}>
+        </div>
+        </div>
+        
 
         </div>
-      </div>
+      
       <br></br>
       {/* <div className={style.gridWrapYellow}>
        <div className={style.grid}>

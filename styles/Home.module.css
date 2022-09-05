@@ -70,7 +70,7 @@
   margin-top: 20px;
 }
 
-.overlay{
+.overlaycontainer{
   z-index: -10;
   position: absolute;
   top: 0;
@@ -79,6 +79,12 @@
   bottom: 0;
   background-color: #00000070;
   opacity: 0;
+  display: flex;
+}
+
+.overlay{
+  width: 10%;
+  height: 100%;
 }
 
 .oneItemCardSection{
