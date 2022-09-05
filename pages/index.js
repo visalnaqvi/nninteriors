@@ -5,7 +5,6 @@ import o1 from "../assests/office/1.webp";
 import o2 from "../assests/living-room/8.webp";
 import o3 from "../assests/dinning-room/1.webp";
 import o4 from "../assests/bedroomracks/1.webp";
-import Script from "next/script";
 import { useState, useEffect } from "react";
 import Section from "../comps/section";
 import InfoCard from "../comps/infoCard";
@@ -57,14 +56,7 @@ export default function Home() {
 
   return (
     <div>
-      <Script
-        type="module"
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-      ></Script>
-      <Script
-        nomodule
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-      ></Script>
+      
       <Head>
         <title>Best Interior Designers in Delhi NCR - N.N. Interiors</title>
         <meta name="description" content="we are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more."></meta>

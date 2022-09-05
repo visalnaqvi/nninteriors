@@ -34,11 +34,11 @@ const Navigation = () => {
       <div className={`${style.ulContainerMobile} ${toggle?style.open:null}`}>
         <ul className={style.navUlMobile}>
           <li className={style.navLi}><p className={` ${style.mobileLogo} curveFont`}>N.N. Interiors</p></li>
-          <li className={style.navLi} ><Link className={style.active} href='/'><p onClick={(e)=>{activeStateChange(e.target)}} className={`${style.linktext} ${style.active}`}> Home</p></Link></li>
-          <li className={style.navLi}><Link href="/category"><p onClick={(e)=>{activeStateChange(e.target)}} className={style.linktext}>Category</p></Link></li>
-          <li className={style.navLi}><Link href="/category"><p onClick={(e)=>{activeStateChange(e.target)}} className={style.linktext}> Products</p></Link></li>
-          <li className={style.navLi}><Link href="/category"><p onClick={(e)=>{activeStateChange(e.target)}} className={style.linktext}> Contact Us</p></Link></li>
-          <li className={style.navLi}><Link href="/category"><p onClick={(e)=>{activeStateChange(e.target)}} className={style.linktext}> Gallary</p></Link></li>
+          <li onClick={()=>{Toggle()}} className={style.navLi} ><Link className={style.active} href='/'><p onClick={(e)=>{activeStateChange(e.target)}} className={`${style.linktext} ${style.active}`}> Home</p></Link></li>
+          <li onClick={()=>{Toggle()}} className={style.navLi}><Link href="/category"><p onClick={(e)=>{activeStateChange(e.target)}} className={style.linktext}>Category</p></Link></li>
+          <li onClick={()=>{Toggle()}} className={style.navLi}><Link href="/category"><p onClick={(e)=>{activeStateChange(e.target)}} className={style.linktext}> Products</p></Link></li>
+          <li onClick={()=>{Toggle()}} className={style.navLi}><Link href="/category"><p onClick={(e)=>{activeStateChange(e.target)}} className={style.linktext}> Contact Us</p></Link></li>
+          <li onClick={()=>{Toggle()}} className={style.navLi}><Link href="/category"><p onClick={(e)=>{activeStateChange(e.target)}} className={style.linktext}> Gallary</p></Link></li>
         </ul>
         <div className={style.toggle} onClick={()=>{Toggle()}}></div>
       </div>

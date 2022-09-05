@@ -79,6 +79,7 @@
     justify-content: center;
     padding-top: 30px;
     transition: 0.5s left ease-in-out;
+    box-shadow: 0 10px 10px #00000080;
 }
 
 .ulContainerMobile.open{
@@ -112,7 +113,7 @@
 
 .toggle{
     position: absolute;
-    bottom: 15px;
+    bottom: 40px;
     right: 15px;
     height: 50px;
     width: 50px;
