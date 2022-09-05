@@ -71,6 +71,7 @@ export default function Home() {
       ></Script>
       <Navigation></Navigation>
       <div className={style.hero}>
+        
         <div className={style.left}>
           <p className={`${style.topLogo} curveFont`}>N.N. Interiors</p>
           <h1 className="curveFont">Best Interior Designer in Delhi NCR</h1>
@@ -85,7 +86,17 @@ export default function Home() {
                 <Image layout={"fill"} src={imgVal} alt="interior"></Image>
               </div> */}
         </div>
-        {/* <div className={style.overlay}></div> */}
+        <div className={style.overlay} style={{
+          backgroundImage:"url(../background/3.png)",
+          backgroundImage:"url(../background/4.png)",
+          backgroundImage:"url(../background/5.png)",
+          backgroundImage:"url(../background/2.png)",
+          backgroundImage:"url(../background/6.png)",
+          backgroundImage:"url(../background/7.png)",
+          backgroundImage:"url(../background/9.png)",
+        }}>
+
+        </div>
       </div>
       <br></br>
       {/* <div className={style.gridWrapYellow}>
