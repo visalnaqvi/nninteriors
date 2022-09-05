@@ -1,0 +1,49 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 25%;
+    margin: 0 20px;
+    min-width: 300px;
+}
+
+.left{
+    width: 20%;
+    font-size: 2em;
+    color: var(--primaryBrown);
+}
+
+.left span{
+    /* background-color: var(--primaryBrown); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.right{
+    width: 80%;
+}
+.cardHeading{
+    color: #444444;
+}
+
+.cardText{
+    font-size: small;
+    color: darkslategrey;
+}
+
+@media only screen and (max-width:925px){
+    .wrap{
+        margin: 20px;
+    }
+}
+
+
+@media only screen and (max-width:675px){
+    .wrap{
+        margin: 20px;
+        width: 80%;
+    }
+}
