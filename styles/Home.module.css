@@ -12,10 +12,12 @@
   width: 80%;
   height: 100%;
   margin-left: auto;
+  background-image: url(../public/background/3.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   transition: 0.5s ease-in-out;
+  background-color: var(--primaryBrown);
 }
 
 .left{
@@ -186,8 +188,6 @@ width: 90%;
   
 
   .left{
-    backdrop-filter: blur(30px);
-    background-color: #446A4680;
     padding: 10px;
     top: 0;
     border-bottom-right-radius: 50px;
