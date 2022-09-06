@@ -6,7 +6,7 @@ const InfoCard = ({ cardHeading, cardText, cardImage }) => {
       <div className={style.cardLeft}>
         <h3 className={`${style.cardHeading} curveFont`}>{cardHeading}</h3>
         <p className={style.cardText}>{cardText}</p>
-        <button className={style.cardButton}>Contact us now</button>
+        <button className={style.cardButton}>Call us on 9911390398 , 9810884704</button>
       </div>
       <div className={style.cardRight}>
         <div className={style.cardImgContainer}>

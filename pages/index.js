@@ -68,7 +68,7 @@ export default function Home() {
           <p className={`${style.topLogo} curveFont`}>N.N. Interiors</p>
           <h1 className="curveFont">Best Interior Designer in Delhi NCR</h1>
           <h2>Get house/office interior done with most affordable price.</h2>
-          <button>Contact Us Now</button>
+          <button>Call us now on 09810884704</button>
         </div>
         <div
           className={style.right}
