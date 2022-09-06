@@ -17,12 +17,14 @@ const InfoCard4Images = ({text,link,heading,img1,img2,img3,img4,alt1,alt2,alt3,a
           <div className={style.top}>
             <div className={style.imgContainer}>
               <Image
+                loading="eager"
                 src={img1}
                 alt={alt1}
               ></Image>
             </div>
             <div className={style.imgContainer}>
               <Image
+                loading="eager"
                 src={img2}
                 alt={alt2}
               ></Image>
@@ -31,12 +33,14 @@ const InfoCard4Images = ({text,link,heading,img1,img2,img3,img4,alt1,alt2,alt3,a
           <div className={style.bottom}>
             <div className={style.imgContainer}>
               <Image
+                loading="eager"
                 src={img3}
                 alt={alt3}
               ></Image>
             </div>
             <div className={style.imgContainer}>
               <Image
+                loading="eager"
                 src={img4}
                 alt={alt4}
               ></Image>

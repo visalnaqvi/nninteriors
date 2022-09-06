@@ -44,11 +44,7 @@ export default function Home() {
       count == bgArray.length - 1 ? setCount(0) : setCount(count + 1);
 
       setbg(bgArray[count]);
-      if(screen.width <= 12050){
-         const box = document.querySelector(`.${style.left}`);
-         box.style.backgroundColor = '#446A4690';
-         box.style.backdropFilter = 'blur(30px)';
-      }
+     
       // countImage == imgArray.length - 1
       //   ? setCountimg(0)
       //   : setCountimg(countImage + 1);
