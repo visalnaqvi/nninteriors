@@ -59,6 +59,36 @@ export default function Home() {
     <div>
       
       <Head>
+        
+      <script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "NN Interiors",
+  "alternateName": "NN Interiors - Best Construction and Interior Work Services in Delhi NCR",
+  "url": "https://nninterior.com/",
+  "logo": "",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "9810884704",
+    "contactType": "customer service",
+    "contactOption": "TollFree",
+    "areaServed": "IN",
+    "availableLanguage": ["en","Hindi"]
+  },{
+    "@type": "ContactPoint",
+    "telephone": "9911390398",
+    "contactType": "customer service",
+    "contactOption": "TollFree",
+    "areaServed": "IN",
+    "availableLanguage": ["en","Hindi"]
+  }],
+  "sameAs": [
+    "https://nninterior.com/",
+    "https://www.instagram.com/n.n.interiors/"
+  ]
+}}
+</script>
         <title>Best Interior Designers in Delhi NCR - N.N. Interiors</title>
         <meta name="description" content="we are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more."></meta>
       </Head>
