@@ -89,7 +89,7 @@ export default function Home() {
       `}</Script>
       <Head>
         
-
+      <meta name="p:domain_verify" content="65e9c4329e59d60be86795aef6fb0b36"/>
         <title>Best Interior Designers in Delhi NCR - N.N. Interiors</title>
         <meta name="description" content="we are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more."></meta>
       </Head>
