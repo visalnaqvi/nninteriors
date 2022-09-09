@@ -1,5 +1,5 @@
-import Navigation from "../comps/nav";
 import style from "../styles/Home.module.css";
+import socialStyle from "../styles/socialContainer.module.css";
 import Image from "next/image";
 import o1 from "../assests/office/1.webp";
 import o2 from "../assests/living-room/8.webp";
@@ -25,8 +25,8 @@ import meeting from "../assests/steps/meeting.svg";
 import quote from "../assests/steps/quote.svg";
 import payment from "../assests/steps/payment.svg";
 import deliverly from "../assests/steps/delever.svg";
-import Footer from "../comps/footer";
 import Head from "next/head";
+import Link from "next/link";
 import Script from "next/script";
 export default function Home() {
   // const [imgVal, setImg] = useState(o1);
@@ -45,7 +45,7 @@ export default function Home() {
       count == bgArray.length - 1 ? setCount(0) : setCount(count + 1);
 
       setbg(bgArray[count]);
-     
+
       // countImage == imgArray.length - 1
       //   ? setCountimg(0)
       //   : setCountimg(countImage + 1);
@@ -88,13 +88,17 @@ export default function Home() {
       }
       `}</Script>
       <Head>
-        
-      <meta name="p:domain_verify" content="65e9c4329e59d60be86795aef6fb0b36"/>
+        <meta
+          name="p:domain_verify"
+          content="65e9c4329e59d60be86795aef6fb0b36"
+        />
         <title>Best Interior Designers in Delhi NCR - N.N. Interiors</title>
-        <meta name="description" content="we are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more."></meta>
+        <meta
+          name="description"
+          content="we are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more."
+        ></meta>
       </Head>
       <div className={style.hero}>
-        
         <div className={style.left}>
           <p className={`${style.topLogo} curveFont`}>N.N. Interiors</p>
           <h1 className="curveFont">Best Interior Designer in Delhi NCR</h1>
@@ -110,26 +114,51 @@ export default function Home() {
               </div> */}
         </div>
         <div className={style.overlaycontainer}>
-        <div className={style.overlay} style={{
-          backgroundImage:"url(../background/3.webp)",
-        }}></div>
-         
-          <div className={style.overlay} style={{
-          backgroundImage:"url(../background/5.webp)",
-        }}></div>
-          <div className={style.overlay} style={{
-          backgroundImage:"url(../background/2.webp)",
-        }}></div>
-        <div className={style.overlay} style={{
-          backgroundImage:"url(../background/9.webp)",
-        }}>
-        </div>
-        </div>
-        
+          <div
+            className={style.overlay}
+            style={{
+              backgroundImage: "url(../background/3.webp)",
+            }}
+          ></div>
 
+          <div
+            className={style.overlay}
+            style={{
+              backgroundImage: "url(../background/5.webp)",
+            }}
+          ></div>
+          <div
+            className={style.overlay}
+            style={{
+              backgroundImage: "url(../background/2.webp)",
+            }}
+          ></div>
+          <div
+            className={style.overlay}
+            style={{
+              backgroundImage: "url(../background/9.webp)",
+            }}
+          ></div>
         </div>
-      
-      <br></br>
+      </div>
+
+      <div className={`${socialStyle.wrap} ${socialStyle.onHome}`}>
+        <a rel="noreferrer" href="https://www.instagram.com/n.n.interiors/" target="_blank" className={socialStyle.link}>
+          <span className={socialStyle.span}>
+            <ion-icon name="logo-instagram"></ion-icon>
+          </span>
+        </a>
+        <a rel="noreferrer" href="https://www.facebook.com/profile.php?id=100085237464720" target="_blank" className={socialStyle.link}>
+          <span className={socialStyle.span}>
+            <ion-icon name="logo-facebook"></ion-icon>
+          </span>
+        </a>
+        <a rel="noreferrer" href="https://in.pinterest.com/nninteriorsdelhi/" target="_blank" className={socialStyle.link}>
+          <span className={socialStyle.span}>
+            <ion-icon name="logo-pinterest"></ion-icon>
+          </span>
+        </a>
+      </div>
       {/* <div className={style.gridWrapYellow}>
        <div className={style.grid}>
               <ImageCard alt="Modular Kitchen" src={modularKitchen}></ImageCard>
@@ -222,7 +251,7 @@ export default function Home() {
         more information."
         cardImage={o2}
       ></InfoCard>
-      
+
       <div className={style.gridGreenWrap}>
         <Section heading="Complete Interior in just 5 easy steps"></Section>
         <div className={style.grid}>
@@ -270,7 +299,6 @@ export default function Home() {
         cardText="You dont have to worry about the results because all of these interiors are made by people who are professionals in their fields with an elegant and luxurious style and with premium quality materials. "
         cardImage={o4}
       ></InfoCard>
-
     </div>
   );
 }
