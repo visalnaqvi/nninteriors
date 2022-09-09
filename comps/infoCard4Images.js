@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import style from "../styles/infoCard4Images.module.css"
 const InfoCard4Images = ({text,link,heading,img1,img2,img3,img4,alt1,alt2,alt3,alt4}) => {
     return ( 
@@ -9,7 +10,7 @@ const InfoCard4Images = ({text,link,heading,img1,img2,img3,img4,alt1,alt2,alt3,a
             {text}
           </p>
           <div className={style.buttonContainer}>
-            <button className={style.cardButtonBorder}>View More</button>
+            <Link href="/products/gypsumPartitionInDelhiNCR"><button className={style.cardButtonBorder}>View More</button></Link>
             <button className={style.cardButton}>Call Us on 9911390398, 98108 84704</button>
           </div>
         </div>

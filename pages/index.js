@@ -84,6 +84,8 @@ export default function Home() {
         "sameAs": [
           "https://nninterior.com/",
           "https://www.instagram.com/n.n.interiors/"
+          "https://www.facebook.com/profile.php?id=100085237464720"
+          "https://in.pinterest.com/nninteriorsdelhi/"
         ]
       }
       `}</Script>
