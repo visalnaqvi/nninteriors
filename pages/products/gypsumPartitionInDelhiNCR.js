@@ -124,7 +124,7 @@ const GypsumPartition = () => {
         <p className={style.text2}>Gypsum products are made with a greater emphasis on acoustic and sound-insulating qualities. Other projects like masonry, which is often utilised in a higher thickness and is recently shown to be less labor-intensive than gypsum, might work well. For instance, we can build 75mm thick drywall to provide the same acoustic performance as a 110mm thick masonry wall.</p>
         <br></br><br></br>
         <h4 className={style.h4Heading}>4. Thermal properties of gypsum</h4>
-        <p className={style.text2}>Gypsum construction's thermal capabilities would make it possible to maintain a comfortable balance between indoor temperature and humidity. Gypsum is used in the building of formwork and plasterboard cavities to add further insulating characteristics. Plasterboards serve as a vapour barrier during interior construction, reducing indoor humidity.</p>
+        <p className={style.text2}>Gypsum construction&apos;s thermal capabilities would make it possible to maintain a comfortable balance between indoor temperature and humidity. Gypsum is used in the building of formwork and plasterboard cavities to add further insulating characteristics. Plasterboards serve as a vapour barrier during interior construction, reducing indoor humidity.</p>
         <br></br>
         <h3 className={style.h3Heading}>Gypsum Board Uses</h3>
         <p className={style.text2}>The Following are the application of gypsum board,</p>
@@ -161,7 +161,7 @@ const GypsumPartition = () => {
 It respects the environment.</li>
 <li>It provides excellent acoustic and thermal insulation.</li></ul></p>
 
-<p className={style.text2}>3. It has good aesthetic and practical qualities: The use of gypsum goods, while staying within budget, encourages architects' inventiveness. It offers many beautiful design possibilities.</p>
+<p className={style.text2}>3. It has good aesthetic and practical qualities: The use of gypsum goods, while staying within budget, encourages architects&apos; inventiveness. It offers many beautiful design possibilities.</p>
 
 <p className={style.text2}>4. Installation is simple when using gypsum materials, such as when building interior walls. All that is required is to secure the frame and fill in the seams. Installation does not require expert personnel and the entire procedure is quick, simple, and clean. Gypsum plaster is a finishing finish that requires the least amount of painting. By itself, the white finish creates a tidy impression.</p>
 
