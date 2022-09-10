@@ -5,17 +5,59 @@ import three from "../../assests/gypsum-partition/gp2.webp";
 import four from "../../assests/gypsum-partition/gp1.webp";
 import { useState } from "react";
 import Image from "next/image";
+import Head from "next/head";
 const GypsumPartition = () => {
   const [src, setSrc] = useState(one);
   return (
     <div className={style.wrap}>
+      <Head>
+        <title>Gypsum Wall Partiton in Delhi NCR at most affordabele Pricing</title>
+        <meta
+          name="description"
+          content="Get the best quality gypsum board wall partision in Delhi NCR installed at your space at most affordable pricing by NN Interiors the best Interior Designers and construction work service providers in Delhi NCR. Visit our store in Noida for more information or call us now."
+        ></meta>
+      </Head>
       <div className={style.hero}>
         <div className={style.left}>
           <div className={style.imgContainer}>
             <Image layout="fill" src={src} alt="gypsum board wall partition in work Delhi NCR"></Image>
           </div>
+          <div className={`${style.gallary} ${style.mobileGallary}`}>
+            <div
+              className={style.gallaryImg}
+              onClick={() => {
+                setSrc(one);
+              }}
+            >
+              <Image layout="fill" src={one} alt="gypsum board wall partition in office Delhi NCR"></Image>
+            </div>
+            <div
+              onClick={() => {
+                setSrc(two);
+              }}
+              className={style.gallaryImg}
+            >
+              <Image layout="fill" src={two} alt="gypsum board wall partition on wall Delhi NCR"></Image>
+            </div>
+            <div
+              onClick={() => {
+                setSrc(three);
+              }}
+              className={style.gallaryImg}
+            >
+              <Image layout="fill" src={three} alt="gypsum board wall partition work in porgress Delhi NCR"></Image>
+            </div>
+            <div
+              onClick={() => {
+                setSrc(four);
+              }}
+              className={style.gallaryImg}
+            >
+              <Image layout="fill" src={four} alt="two"></Image>
+            </div>
+          </div>
           <br></br>
-          <div className={style.top}>
+          <div className={`${style.top} ${style.desktop}`}>
             <h2 className={style.subHeading}>About NN Interiors work in Delhi NCR</h2>
             <p className={style.text}>We provide best quality <strong>interior designing in Delhi NCR. </strong>After successfully completing several <strong>interior design and construction projects in Delhi NCR</strong>.
             And having spent an amazing 15 years in <strong>interior designing and construction</strong> field with more than 100 happy clients. We can proudly claim that <storng>NN Interiors</storng> are among leading <strong>interior design and construction service providers in Delhi NCR.</strong> Call us now or visit or store in <strong>Noida</strong> for more information. We will be very happy to get in touch with you.
@@ -36,7 +78,7 @@ const GypsumPartition = () => {
               <button className={style.form}>Request a Call Back</button>
             </div>
           </div>
-          <div className={style.gallary}>
+          <div className={`${style.gallary} ${style.desktopGallary}`}>
             <div
               className={style.gallaryImg}
               onClick={() => {
@@ -81,7 +123,7 @@ const GypsumPartition = () => {
                   </td>
                 </tr>
                 <tr>
-                  <th>Usage/Application</th>
+                  <th>Usage/ Application</th>
                   <td>Used on walls, cellings, partiting walls etc</td>
                 </tr>
                 <tr>
@@ -98,6 +140,13 @@ const GypsumPartition = () => {
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div className={`${style.top} ${style.mobile}`}>
+            <h2 className={style.subHeading}>About NN Interiors work in Delhi NCR</h2>
+            <p className={style.text}>We provide best quality <strong>interior designing in Delhi NCR. </strong>After successfully completing several <strong>interior design and construction projects in Delhi NCR</strong>.
+            And having spent an amazing 15 years in <strong>interior designing and construction</strong> field with more than 100 happy clients. We can proudly claim that <storng>NN Interiors</storng> are among leading <strong>interior design and construction service providers in Delhi NCR.</strong> Call us now or visit or store in <strong>Noida</strong> for more information. We will be very happy to get in touch with you.
+
+             </p>
           </div>
         </div>
       </div>
