@@ -1,0 +1,36 @@
+.wrap{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrap p{
+    font-size: 2.5em;
+    width: 90%;
+    text-align: center;
+    font-weight: 600;
+    color: var(--primaryBrown);
+}
+
+.wrap button{
+    font-size: 1.5em;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: var(--primaryBrown);
+    color: #fff;
+    font-weight: 600;
+    border: 3px solid var(--primaryBrown);
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #00000070;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.wrap button:hover{
+    background-color: #fff;
+    color: var(--primaryBrown);
+    box-shadow: none;
+}
