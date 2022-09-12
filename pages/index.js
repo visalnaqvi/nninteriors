@@ -1,5 +1,4 @@
 import style from "../styles/Home.module.css";
-import socialStyle from "../styles/socialContainer.module.css";
 import Image from "next/image";
 import o1 from "../assests/office/1.webp";
 import o2 from "../assests/living-room/8.webp";
@@ -87,6 +86,7 @@ export default function Home() {
           "https://www.facebook.com/profile.php?id=100085237464720",
           "https://in.pinterest.com/nninteriorsdelhi/",
           "https://www.pexels.com/@nn-interiors-311821055/",
+          "https://www.youtube.com/channel/UCVhOmA1RmsINZQWkC9cDOzQ",
         ]
       }
       `}</Script>
@@ -145,23 +145,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={`${socialStyle.wrap} ${socialStyle.onHome}`}>
-        <a rel="noreferrer" href="https://www.instagram.com/n.n.interiors/" target="_blank" className={socialStyle.link}>
-          <span className={socialStyle.span}>
-            <ion-icon name="logo-instagram"></ion-icon>
-          </span>
-        </a>
-        <a rel="noreferrer" href="https://www.facebook.com/profile.php?id=100085237464720" target="_blank" className={socialStyle.link}>
-          <span className={socialStyle.span}>
-            <ion-icon name="logo-facebook"></ion-icon>
-          </span>
-        </a>
-        <a rel="noreferrer" href="https://in.pinterest.com/nninteriorsdelhi/" target="_blank" className={socialStyle.link}>
-          <span className={socialStyle.span}>
-            <ion-icon name="logo-pinterest"></ion-icon>
-          </span>
-        </a>
-      </div>
+     
       {/* <div className={style.gridWrapYellow}>
        <div className={style.grid}>
               <ImageCard alt="Modular Kitchen" src={modularKitchen}></ImageCard>
