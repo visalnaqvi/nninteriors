@@ -14,7 +14,7 @@ const GypsumPartition = () => {
         <title>Gypsum Wall Partiton in Delhi NCR at most affordabele Pricing</title>
         <meta
           name="description"
-          content="Get the best quality gypsum board wall partision in Delhi NCR installed at your space at most affordable pricing by NN Interiors the best Interior Designers and construction work service providers in Delhi NCR. Visit our store in Noida for more information or call us now."
+          content="Get the best quality gypsum board wall partition in Delhi NCR installed at your space at most affordable pricing by NN Interiors the best Interior Designers and construction work service providers in Delhi NCR. Visit our store in Noida for more information or call us now."
         ></meta>
       </Head>
       <div className={style.hero}>

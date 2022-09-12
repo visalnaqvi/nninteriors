@@ -83,9 +83,10 @@ export default function Home() {
         }],
         "sameAs": [
           "https://nninterior.com/",
-          "https://www.instagram.com/n.n.interiors/"
-          "https://www.facebook.com/profile.php?id=100085237464720"
-          "https://in.pinterest.com/nninteriorsdelhi/"
+          "https://www.instagram.com/n.n.interiors/",
+          "https://www.facebook.com/profile.php?id=100085237464720",
+          "https://in.pinterest.com/nninteriorsdelhi/",
+          "https://www.pexels.com/@nn-interiors-311821055/",
         ]
       }
       `}</Script>
