@@ -24,11 +24,13 @@ function MyApp({ Component, pageProps }) {
         });
     `}
 </Script>
+<html lang='en'>
 <SocialWidget></SocialWidget>
 
           <Navigation></Navigation>
           <Component {...pageProps} />
           <Footer></Footer>
+          </html>
     </>
   )
   

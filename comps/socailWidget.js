@@ -7,7 +7,7 @@ const SocialWidget = () => {
             <ion-icon name="logo-instagram"></ion-icon>
           </span>
         </a>
-        <a rel="noreferrer" href="https://www.facebook.com/profile.php?id=100085237464720" target="_blank" className={socialStyle.link}>
+        <a rel="noreferrer" href="https://www.facebook.com/nninteriors.delhi/" target="_blank" className={socialStyle.link}>
           <span className={socialStyle.span}>
             <ion-icon name="logo-facebook"></ion-icon>
           </span>

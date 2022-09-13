@@ -83,7 +83,7 @@ export default function Home() {
         "sameAs": [
           "https://nninterior.com/",
           "https://www.instagram.com/n.n.interiors/",
-          "https://www.facebook.com/profile.php?id=100085237464720",
+          "https://www.facebook.com/nninteriors.delhi/",
           "https://in.pinterest.com/nninteriorsdelhi/",
           "https://www.pexels.com/@nn-interiors-311821055/",
           "https://www.youtube.com/channel/UCVhOmA1RmsINZQWkC9cDOzQ",
@@ -95,6 +95,8 @@ export default function Home() {
           name="p:domain_verify"
           content="65e9c4329e59d60be86795aef6fb0b36"
         />
+        <link rel="canonical" href="https://nninterior.com/" />
+        <link rel="alternate" href="https://nninterior.com/" hrefLang="en-us" />
         <meta property="og:url" content="https://nninterior.com/" key="ogurl" />
         <meta property="og:image" content={o1} key="ogimage" />
         <meta property="og:site_name" content="NN Interiors Best Interior Designer and Construction Services in Delhi NCR" key="ogsitename" />
@@ -111,7 +113,7 @@ export default function Home() {
           <p className={`${style.topLogo} curveFont`}>N.N. Interiors</p>
           <h1 className="curveFont">Best Interior Designer in Delhi NCR</h1>
           <h2>Get house/office interior done with most affordable price.</h2>
-          <button>CallNN Interiors Best Interior Designer and Construction Services in Delhi NCR us now on 09810884704</button>
+          <button>Call us now on 09810884704</button>
         </div>
         <div
           className={style.right}
