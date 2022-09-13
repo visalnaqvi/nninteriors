@@ -12,6 +12,12 @@ const GypsumPartition = () => {
     <div className={style.wrap}>
       <Head>
         <title>Gypsum Wall Partiton in Delhi NCR at most affordabele Pricing</title>
+        <meta property="og:url" content="https://nninterior.com/products/gypsumPartitionInDelhiNCR5" key="ogurl" />
+        <meta property="og:image" content={one} key="ogimage" />
+        <meta property="og:site_name" content="NN Interiors Best Interior Designer and Construction Services in Delhi NCR" key="ogsitename" />
+<meta property="og:title" content="Gypsum Wall Partiton in Delhi NCR at most affordabele Pricing" key="ogtitle" />
+<meta property="og:description" content="Get the best quality gypsum board wall partition in Delhi NCR installed at your space at most affordable pricing by NN Interiors the best Interior Designers and construction work service providers in Delhi NCR. Visit our store in Noida for more information or call us now." key="ogdesc" />
+
         <meta
           name="description"
           content="Get the best quality gypsum board wall partition in Delhi NCR installed at your space at most affordable pricing by NN Interiors the best Interior Designers and construction work service providers in Delhi NCR. Visit our store in Noida for more information or call us now."

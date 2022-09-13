@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nninterior.com/
+
+# Sitemaps
+Sitemap: https://nninterior.com/sitemap.xml

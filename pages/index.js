@@ -95,10 +95,15 @@ export default function Home() {
           name="p:domain_verify"
           content="65e9c4329e59d60be86795aef6fb0b36"
         />
-        <title>Best Interior Designers in Delhi NCR - N.N. Interiors</title>
+        <meta property="og:url" content="https://nninterior.com/" key="ogurl" />
+        <meta property="og:image" content={o1} key="ogimage" />
+        <meta property="og:site_name" content="NN Interiors Best Interior Designer and Construction Services in Delhi NCR" key="ogsitename" />
+<meta property="og:title" content="NN Interiors Best Interior Designer and Construction Services in Delhi NCR" key="ogtitle" />
+<meta property="og:description" content="NN Interiors are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more." key="ogdesc" />
+        <title>NN Interiors Best Interior Designer and Construction Services in Delhi NCR</title>
         <meta
           name="description"
-          content="we are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more."
+          content="NN Interiors are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more."
         ></meta>
       </Head>
       <div className={style.hero}>
@@ -106,7 +111,7 @@ export default function Home() {
           <p className={`${style.topLogo} curveFont`}>N.N. Interiors</p>
           <h1 className="curveFont">Best Interior Designer in Delhi NCR</h1>
           <h2>Get house/office interior done with most affordable price.</h2>
-          <button>Call us now on 09810884704</button>
+          <button>CallNN Interiors Best Interior Designer and Construction Services in Delhi NCR us now on 09810884704</button>
         </div>
         <div
           className={style.right}
