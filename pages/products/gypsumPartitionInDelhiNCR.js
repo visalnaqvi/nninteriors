@@ -139,8 +139,8 @@ const GypsumPartition = () => {
               Rs. 45 / <span className={style.unit}>Square Feet</span>
             </p>
             <div className={style.btnContainer}>
-              <button className={style.callNow}>Call Us Now</button>
-              <button className={style.form}>Request a Call Back</button>
+              <a href="tel: +91 9810884704"><button className={style.callNow}>Call Us Now</button></a>
+              {/* <button className={style.form}>Request a Call Back</button> */}
             </div>
           </div>
           <div className={`${style.gallary} ${style.desktopGallary}`}>

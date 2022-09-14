@@ -11,6 +11,10 @@ a{
   color: inherit;
 }
 
+button{
+  cursor: pointer;
+}
+
 :root{
   --primaryBrown:#446A46;
   --hoverBrown:#E3FCBF90;

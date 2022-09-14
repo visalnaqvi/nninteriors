@@ -232,4 +232,7 @@
         padding: 10px;
     }
 
+    .btnContainer a{
+       width: 100%;
+    }
 }

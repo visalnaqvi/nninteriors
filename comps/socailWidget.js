@@ -2,6 +2,11 @@ import socialStyle from "../styles/socialContainer.module.css"
 const SocialWidget = () => {
     return ( 
         <div className={`${socialStyle.wrap} ${socialStyle.onHome}`}>
+           <a href="tel: +91 9810884704" className={socialStyle.link}>
+          <span className={socialStyle.span}>
+          <ion-icon name="call"></ion-icon>
+          </span>
+        </a>
         <a rel="noreferrer" href="https://www.instagram.com/n.n.interiors/" target="_blank" className={socialStyle.link}>
           <span className={socialStyle.span}>
             <ion-icon name="logo-instagram"></ion-icon>

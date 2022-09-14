@@ -8,7 +8,7 @@ const Footer = () => {
         </div>
         <div className={style.right}>
             <p className={style.footerText}>Call Us Now on</p>
-            <button className={style.footerButton}>9911390398, 9810884704</button>
+            <a href="tel: +91 9810884704"><button className={style.footerButton}>9911390398, 9810884704</button></a>
         </div>
     </div> );
 }
