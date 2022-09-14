@@ -99,14 +99,30 @@ export default function Home() {
         <link rel="alternate" href="https://nninterior.com/" hrefLang="en-us" />
         <meta property="og:url" content="https://nninterior.com/" key="ogurl" />
         <meta property="og:image" content={o1} key="ogimage" />
-        <meta property="og:site_name" content="NN Interiors Best Interior Designer and Construction Services in Delhi NCR" key="ogsitename" />
-<meta property="og:title" content="NN Interiors Best Interior Designer and Construction Services in Delhi NCR" key="ogtitle" />
-<meta property="og:description" content="NN Interiors are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more." key="ogdesc" />
-        <title>NN Interiors Best Interior Designer and Construction Services in Delhi NCR</title>
+        <meta
+          property="og:site_name"
+          content="NN Interiors Best Interior Designer and Construction Services in Delhi NCR"
+          key="ogsitename"
+        />
+        <meta
+          property="og:title"
+          content="NN Interiors Best Interior Designer and Construction Services in Delhi NCR"
+          key="ogtitle"
+        />
+        <meta
+          property="og:description"
+          content="NN Interiors are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more."
+          key="ogdesc"
+        />
+        <title>
+          NN Interiors Best Interior Designer and Construction Services in Delhi
+          NCR
+        </title>
         <meta
           name="description"
           content="NN Interiors are best Interior Designers in whole Delhi NCR. We provide wall panelling, wall papers, furniture for living room, bed room etc, modular kitchen design, racks, wardrobes and much more."
         ></meta>
+        <meta name="ahrefs-site-verification" content="14907555a7cb2162ba484e73c69065168636891fe5f6569e8dbeb88c26ebcb08"></meta>
       </Head>
       <div className={style.hero}>
         <div className={style.left}>
@@ -152,7 +168,6 @@ export default function Home() {
         </div>
       </div>
 
-     
       {/* <div className={style.gridWrapYellow}>
        <div className={style.grid}>
               <ImageCard alt="Modular Kitchen" src={modularKitchen}></ImageCard>
