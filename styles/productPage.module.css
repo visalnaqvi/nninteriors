@@ -149,6 +149,14 @@
     display: none;
 }
 
+.oneItemCardSection{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+
 @media only screen and (max-width:1200px){
     .gallaryImg{
         width: 100px;
@@ -234,5 +242,9 @@
 
     .btnContainer a{
        width: 100%;
+    }
+
+    .oneItemCardSection{
+        margin-bottom: 0;
     }
 }

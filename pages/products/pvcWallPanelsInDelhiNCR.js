@@ -1,34 +1,34 @@
 import style from "../../styles/productPage.module.css";
-import one from "../../assests/gypsum-partition/gp4.webp";
-import two from "../../assests/gypsum-partition/gp3.webp";
-import three from "../../assests/gypsum-partition/gp2.webp";
-import four from "../../assests/gypsum-partition/gp1.webp";
-import OneIconCard from "../../comps/oneIconCard";
-import Section from "../../comps/section";
+import one from "../../assests/wall-panels/w1.webp";
+import two from "../../assests/wall-panels/w3.webp";
+import three from "../../assests/wall-panels/w2.webp";
+import four from "../../assests/wall-panels/w4.webp";
 import { useState } from "react";
 import Image from "next/image";
 import Head from "next/head";
-const GypsumPartition = () => {
+import OneIconCard from "../../comps/oneIconCard";
+import Section from "../../comps/section";
+const PVCWallPanels = () => {
   const [src, setSrc] = useState(one);
   return (
     <div className={style.wrap}>
       <Head>
         <link
           rel="canonical"
-          href="https://nninterior.com/products/gypsumPartitionInDelhiNCR"
+          href="https://nninterior.com/products/pvcWallPanelsInDelhiNCR"
         />
         <link
           rel="alternate"
-          href="https://nninterior.com/products/gypsumPartitionInDelhiNCR"
+          href="https://nninterior.com/products/pvcWallPanelsInDelhiNCR"
           hrefLang="en-us"
         />
 
         <title>
-          Gypsum Wall Partiton in Delhi NCR at most affordabele Pricing
+        Polished PVC Wall Panels in Delhi NCR for home and office
         </title>
         <meta
           property="og:url"
-          content="https://nninterior.com/products/gypsumPartitionInDelhiNCR5"
+          content="https://nninterior.com/products/pvcWallPanelsInDelhiNCR"
           key="ogurl"
         />
         <meta property="og:image" content={one} key="ogimage" />
@@ -39,18 +39,18 @@ const GypsumPartition = () => {
         />
         <meta
           property="og:title"
-          content="Gypsum Wall Partiton in Delhi NCR at most affordabele Pricing"
+          content="Polished PVC Wall Panels in Delhi NCR at most affordabele Pricing"
           key="ogtitle"
         />
         <meta
           property="og:description"
-          content="Get the best quality gypsum board wall partition in Delhi NCR installed at your space at most affordable pricing by NN Interiors the best Interior Designers and construction work service providers in Delhi NCR. Visit our store in Noida for more information or call us now."
+          content="Get the best quality polished PVC wall panels for home or office in Delhi NCR installed at your space at most affordable pricing by NN Interiors the best Interior Designers and construction work service providers in Delhi NCR. Visit our store in Noida for more information or call us now."
           key="ogdesc"
         />
 
         <meta
           name="description"
-          content="Get the best quality gypsum board wall partition in Delhi NCR installed at your space at most affordable pricing by NN Interiors the best Interior Designers and construction work service providers in Delhi NCR. Visit our store in Noida for more information or call us now."
+          content="Get the best quality polished PVC wall panels for home or office in Delhi NCR installed at your space at most affordable pricing by NN Interiors the best Interior Designers and construction work service providers in Delhi NCR. Visit our store in Noida for more information or call us now."
         ></meta>
       </Head>
       <div className={style.hero}>
@@ -59,7 +59,7 @@ const GypsumPartition = () => {
             <Image
               layout="fill"
               src={src}
-              alt="gypsum board wall partition in work Delhi NCR"
+              alt="polished pvc wall panels in work Delhi NCR"
             ></Image>
           </div>
           <div className={`${style.gallary} ${style.mobileGallary}`}>
@@ -72,7 +72,7 @@ const GypsumPartition = () => {
               <Image
                 layout="fill"
                 src={one}
-                alt="gypsum board wall partition in office Delhi NCR"
+                alt="polished pvc wall panels in office Delhi NCR"
               ></Image>
             </div>
             <div
@@ -84,7 +84,7 @@ const GypsumPartition = () => {
               <Image
                 layout="fill"
                 src={two}
-                alt="gypsum board wall partition on wall Delhi NCR"
+                alt="polished pvc wall panels on wall Delhi NCR"
               ></Image>
             </div>
             <div
@@ -96,7 +96,7 @@ const GypsumPartition = () => {
               <Image
                 layout="fill"
                 src={three}
-                alt="gypsum board wall partition work in porgress Delhi NCR"
+                alt="polished pvc wall panels work in porgress Delhi NCR"
               ></Image>
             </div>
             <div
@@ -135,10 +135,10 @@ const GypsumPartition = () => {
         <div className={style.right}>
           <div className={style.top}>
             <h1 className={style.heading}>
-              Gypsum Board Wall Partition in Delhi NCR
+              Polished PVC Wall Panels in Delhi NCR
             </h1>
             <p className={style.price}>
-              Rs. 45 / <span className={style.unit}>Square Feet</span>
+              Rs. 250 / <span className={style.unit}>Square Feet</span>
             </p>
             <div className={style.btnContainer}>
               <a href="tel: +91 9810884704"><button className={style.callNow}>Call Us Now</button></a>
@@ -155,7 +155,7 @@ const GypsumPartition = () => {
               <Image
                 layout="fill"
                 src={one}
-                alt="gypsum board wall partition in office Delhi NCR"
+                alt="polished pvc wall panels in office Delhi NCR"
               ></Image>
             </div>
             <div
@@ -167,7 +167,7 @@ const GypsumPartition = () => {
               <Image
                 layout="fill"
                 src={two}
-                alt="gypsum board wall partition on wall Delhi NCR"
+                alt="polished pvc wall panels on wall Delhi NCR"
               ></Image>
             </div>
             <div
@@ -179,7 +179,7 @@ const GypsumPartition = () => {
               <Image
                 layout="fill"
                 src={three}
-                alt="gypsum board wall partition work in porgress Delhi NCR"
+                alt="polished pvc wall panels work in porgress Delhi NCR"
               ></Image>
             </div>
             <div
@@ -198,24 +198,24 @@ const GypsumPartition = () => {
                 <tr className={style.tr}>
                   <th>Product Name</th>
                   <td>
-                    <strong>Gypsum Board Wall Partition in Delhi NCR</strong>
+                    <strong>Polished PVC Wall Panels in Delhi NCR</strong>
                   </td>
                 </tr>
                 <tr>
-                  <th>Usage/ Application</th>
-                  <td>Used on walls, cellings, partiting walls etc</td>
+                  <th>Usage / Application</th>
+                  <td>Home / Office Wall Decoration</td>
                 </tr>
                 <tr>
                   <th>Properties</th>
-                  <td>Fire resistance, Sound Resistance, Water Proof</td>
+                  <td>Elegant look, Available in sizes, Easy to clean, non-flammable</td>
                 </tr>
                 <tr>
                   <th>Finish</th>
-                  <td>Matt</td>
+                  <td>Polished / Matt</td>
                 </tr>
                 <tr>
-                  <th>Brand</th>
-                  <td>Gyproc, Armstrong, SHERA, USG Boral</td>
+                  <th>Brands</th>
+                  <td>All top brands available</td>
                 </tr>
               </tbody>
             </table>
@@ -244,6 +244,7 @@ const GypsumPartition = () => {
           </div>
         </div>
       </div>
+      <br></br>
       <Section heading="Benefits You Get when using our services"></Section>
       <div className={style.oneItemCardSection}>
         <OneIconCard
@@ -282,8 +283,7 @@ const GypsumPartition = () => {
         ></OneIconCard>
         
       </div>
-      <br></br>
-      <article>
+      {/* <article>
         <h3 className={style.h3Heading}>What is Gypsum Board?</h3>
         <br></br>
         <p className={style.text2}>
@@ -482,9 +482,9 @@ const GypsumPartition = () => {
           aid of distinctive packaging provided by the makers with sufficient
           technical expertise, the proper product may be chosen.
         </p>
-      </article>
+      </article> */}
     </div>
   );
 };
 
-export default GypsumPartition;
+export default PVCWallPanels;

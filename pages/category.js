@@ -37,7 +37,8 @@ const Category = () => {
             alt1="wall panel design 1 by nn interiors"
             alt2="wall panel design 2 by nn interiors"
             alt3="wall panel design 3 by nn interiors"
-            alt4="wall panel design 4 by nn interiors" >
+            alt4="wall panel design 4 by nn interiors" 
+            link="/products/pvcWallPanelsInDelhiNCR">
         </InfoCard4Images>
 
 <div className={style.greenBox}>
@@ -53,7 +54,8 @@ const Category = () => {
             alt1="Gypsum Wall Partition design 1 by nn interiors"
             alt2="Gypsum Wall Partition design 2 by nn interiors"
             alt3="Gypsum Wall Partition design 3 by nn interiors"
-            alt4="Gypsum Wall Partition design 4 by nn interiors" >
+            alt4="Gypsum Wall Partition design 4 by nn interiors"
+            link="/products/gypsumPartitionInDelhiNCR" >
         </InfoCard4Images>
         </div>
         <InfoCard4Images text="
