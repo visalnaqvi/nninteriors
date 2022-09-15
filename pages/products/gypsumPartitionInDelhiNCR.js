@@ -8,10 +8,38 @@ import Section from "../../comps/section";
 import { useState } from "react";
 import Image from "next/image";
 import Head from "next/head";
+import Script from "next/script";
 const GypsumPartition = () => {
   const [src, setSrc] = useState(one);
   return (
     <div className={style.wrap}>
+      <Script type="application/ld+json" id="gypsum-schema">{`
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Gypsum Board Wall Partition in Delhi NCR",
+        "image": "https://nninterior.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgp4.3b7eb998.webp&w=1920&q=75",
+        "description": "Gypsum Board Wall Partition in Delhi NCR Used on walls, cellings, partiting walls etc Fire resistance, Sound Resistance, Water Proof Gyproc, Armstrong, SHERA, USG Boral",
+        "brand": {
+          "@type": "Brand",
+          "name": "NN Interiors"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://nninterior.com/products/gypsumPartitionInDelhiNCR",
+          "priceCurrency": "INR",
+          "price": "5000",
+          "priceValidUntil": "2022-12-31",
+          "availability": "https://schema.org/InStock",
+          "itemCondition": "https://schema.org/NewCondition"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "ratingCount": "10"
+        }
+      }
+      `}</Script>
       <Head>
         <link
           rel="canonical"
@@ -265,18 +293,18 @@ const GypsumPartition = () => {
       </div>
 
       <div className={style.oneItemCardSection}>
-        <OneIconCard
-          icon="ribbon-outline"
+      <OneIconCard
+          icon="people-outline"
           heading="Skilled Team"
           text="All of your team members are highly skilled and exprienced in there work."
         ></OneIconCard>
         <OneIconCard
-          icon="alarm-outline"
+          icon="school-outline"
           heading="Expert Guidance"
           text="All of the work will be done under the guidence of our exprienced experts."
         ></OneIconCard>
         <OneIconCard
-          icon="cash-outline"
+          icon="shield-checkmark-outline"
           heading="Clean Finish"
           text="The finished product will have the best finish with most attractive look and feel."
         ></OneIconCard>

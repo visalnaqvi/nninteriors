@@ -29,4 +29,8 @@
         top: unset;
     }
 
+    .span{
+        font-size: 1em;
+    }
+
 }

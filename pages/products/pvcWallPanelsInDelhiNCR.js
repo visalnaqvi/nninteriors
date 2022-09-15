@@ -8,10 +8,33 @@ import Image from "next/image";
 import Head from "next/head";
 import OneIconCard from "../../comps/oneIconCard";
 import Section from "../../comps/section";
+import Script from "next/script";
 const PVCWallPanels = () => {
   const [src, setSrc] = useState(one);
   return (
     <div className={style.wrap}>
+      <Script type="application/ld+json" id="gypsum-schema">{`
+      {
+        "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Polished PVC Wall Panels in Delhi NCR",
+  "image": "https://nninterior.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fw1.40541080.webp&w=1920&q=75",
+  "description": "Polished PVC Wall Panels in Delhi NCR Home / Office Wall Decoration Elegant look, Available in sizes, Easy to clean, non-flammable Polished / Matt All top brands available",
+  "brand": {
+    "@type": "Brand",
+    "name": "NN Interiors"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://nninterior.com/products/pvcWallPanelsInDelhiNCR",
+    "priceCurrency": "INR",
+    "price": "450",
+    "priceValidUntil": "2022-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition"
+  }
+      }
+      `}</Script>
       <Head>
         <link
           rel="canonical"
@@ -267,17 +290,17 @@ const PVCWallPanels = () => {
 
       <div className={style.oneItemCardSection}>
         <OneIconCard
-          icon="ribbon-outline"
+          icon="people-outline"
           heading="Skilled Team"
           text="All of your team members are highly skilled and exprienced in there work."
         ></OneIconCard>
         <OneIconCard
-          icon="alarm-outline"
+          icon="school-outline"
           heading="Expert Guidance"
           text="All of the work will be done under the guidence of our exprienced experts."
         ></OneIconCard>
         <OneIconCard
-          icon="cash-outline"
+          icon="shield-checkmark-outline"
           heading="Clean Finish"
           text="The finished product will have the best finish with most attractive look and feel."
         ></OneIconCard>
