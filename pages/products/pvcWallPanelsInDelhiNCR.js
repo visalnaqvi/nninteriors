@@ -306,206 +306,117 @@ const PVCWallPanels = () => {
         ></OneIconCard>
         
       </div>
-      {/* <article>
-        <h3 className={style.h3Heading}>What is Gypsum Board?</h3>
+       <article>
+        <h3 className={style.h3Heading}>Application of PVC Wall Panels?</h3>
         <br></br>
         <p className={style.text2}>
-          One of the most often utilised construction materials, particularly in
-          interior design projects, is gypsum board. Gypsum has several uses in
-          the construction industry because of its characteristics and varity of
-          its products. <strong>Gypsum board</strong> is a common{" "}
-          <strong>construction and interior design material</strong> used in the
-          building of walls and ceilings. Gypsum can also be used in the form of
-          plaster on the field.
+          <strong>PVC wall panels</strong> are the best type of <storng>interior wall decorating</storng> product. They are excellent options for covering any undesirable, troublesome wall, ceiling, or other surface. As an example, the living room, bedroom, kitchen, TV backdrop, accent walls, and ceiling in a home; the corporate logo wall, meeting room, lobby backdrop, and reception desk front function area in an office; and the decor of restaurants, cafés, movie theatres, and nightclubs. In addition to giving the wall a great aesthetic impression.
         </p>
         <p className={style.text2}>
-          <strong>Gypsum board</strong> is made out of a core of set gypsum that
-          is covered with specially made paper that is securely adhered to the
-          core. It is made to be applied to partitions, walls, or ceilings
-          without the addition of plaster, and it creates a surface suited for
-          either painting or writing on.
+          The walls and ceilings are made more appealing by these panels. Customers come in a variety of styles, materials, and hues. These items are created in accordance with the unique requirements of our customers, which further enables us to maximise their happiness. Additionally, to guarantee that wall panelings are immaculate, we test them against a set of predetermined criteria. Wall panels are used in homes, businesses, and a variety of other spaces to decorate the interior. Our panels have a high tensile strength and negligible moisture content. Our <strong> PVC wal panels</strong>are available in various sizes and are easy to clean. Customers may very simply get these natural teak goods from us.
         </p>
-        <p className={style.text2}>
-          In drywall construction, where the plaster is removed,{" "}
-          <strong>gypsum board</strong> is often utilised. In order to eliminate
-          the need for further ornamentation, it is also available on the market
-          with one side coated in aluminium and another covered in foil that
-          reflects heat, imitation wood grain, or another design on the outer
-          surface.
-        </p>
-        <p className={style.text2}>
-          Gypsum board comes in a variety of forms, including gypsum form board,
-          backing board, core board, fire-resistant{" "}
-          <strong>gypsum board</strong>, and water-resistant gypsum board.
-        </p>
-        <p className={style.text2}>
-          Gypsum plaster is squeezed between two thick sheets of paper to create
-          panels, which are known as drywall, plasterboard, or wallboard. Gypsum
-          board has numerous qualities that make it a desirable building
-          material.
-        </p>
-        <br></br>
-        <h3 className={style.h3Heading}>Properties of Gymsum Board</h3>
-        <br></br>
-        <h4 className={style.h4Heading}>1. Fire Resistant of Gypsum</h4>
-        <p className={style.text2}>
-          It has a natural resistance to fire. They prevent the possibility of a
-          fire spreading, ensuring life safety. Now, the water that is contained
-          in gypsum goods is what gives it its resistance to fire. A sheet of
-          gypsum plasterboard that is 15 mm thick would contain approximately a
-          litre of clear water.
-        </p>
-        <p className={style.text2}>
-          A protective layer forms over the gypsum product when a fire
-          approaches the water due to evaporation. It would aid in preventing
-          the spread of the fire to more components.
-        </p>
-        <br></br>
-        <br></br>
-        <h4 className={style.h4Heading}>
-          2. Non-Combustible Property of Gypsum
-        </h4>
-        <p className={style.text2}>
-          {" "}
-          Gypsum products are heated, which causes the water crystals to heat up
-          as well. Calculations refer to the process of heat-induced gypsum
-          dehydration. A covering over the components that prevents combustion
-          and permits the materials around to retain a lower, safer temperature
-          is the outcome of the calculations.
-        </p>
-        <br></br>
-        <br></br>
-        <h4 className={style.h4Heading}>3. Acoustic Property of Gypsum</h4>
-        <p className={style.text2}>
-          Gypsum products are made with a greater emphasis on acoustic and
-          sound-insulating qualities. Other projects like masonry, which is
-          often utilised in a higher thickness and is recently shown to be less
-          labor-intensive than gypsum, might work well. For instance, we can
-          build 75mm thick drywall to provide the same acoustic performance as a
-          110mm thick masonry wall.
-        </p>
-        <br></br>
-        <br></br>
-        <h4 className={style.h4Heading}>4. Thermal properties of gypsum</h4>
-        <p className={style.text2}>
-          Gypsum construction&apos;s thermal capabilities would make it possible
-          to maintain a comfortable balance between indoor temperature and
-          humidity. Gypsum is used in the building of formwork and plasterboard
-          cavities to add further insulating characteristics. Plasterboards
-          serve as a vapour barrier during interior construction, reducing
-          indoor humidity.
-        </p>
-        <br></br>
-        <h3 className={style.h3Heading}>Gypsum Board Uses</h3>
-        <p className={style.text2}>
-          The Following are the application of gypsum board,
-        </p>
-        <ul>
-          <li className={style.text2}>
-            1. Gypsum is in greater demand because it can provide an
-            aesthetically pleasing and pleasant atmosphere when used in
-            building.
-          </li>
-          <li className={style.text2}>
-            2. It is a typically accessible natural substance. It has no smell.
-          </li>
-          <li className={style.text2}>
-            3. Nowadays, gypsum construction or gypsum materials are used to
-            prepare the majority of interior and external construction elements.
-          </li>
-          <li className={style.text2}>
-            4. Gypsum construction has advanced in a continual process as a
-            result of how expensive and time-consuming it is to build.
-          </li>
-          <li className={style.text2}>
-            5. Gypsum products improve throughout time in terms of their fire
-            resistance, acoustic qualities for noise insulation, etc.
-          </li>
+   <br></br><br></br>
+        <h3 className={style.h3Heading}>Properties of PVC Wall Panels</h3>
+        <ul className={style.text2}>
+          <li>Elegant look</li>
+          <li>Available in sizes</li>
+          <li>Easy to clean</li>
+          <li>Fine Finishing</li>
+          <li>Accurate dimensions</li>
+          <li>Termite resistance</li>
+          <li>Easy to install and maintain</li>
+          <li>High temperature resistance</li>
+          <li>Self-fire extinguishing, non-flammable.</li>
+          <li>Quick maintenance and no need of painting.</li>
+          <li>It is Inpenetrable by insects and termites, and wont rot or rust.</li>
+          <li>Resistance to weather/ special chemicals, waterproof/washable.</li>
+          <li>Easy to be cut, drilled, nailed, sawet, and riveted. DIY is all right.</li>
+          <li>Authentic beaded look adds charm and a custom look to any room</li>
+          <li>The excellent rigid and superior impacted surface is without any peeling.</li>
+          <li>Natural wood grain: showing authentic wood structure and artistic sense.</li>
+          <li>The simple and fast installation can save a lot of time and manpower cost.</li>
+          <li>100% water resistant (including; moisture and damp proof), washable and easy to clean.</li>
+          <li>Prefinished surface allows the panel to be installed as is, or it may be painted to match decor.</li>
         </ul>
-        <br></br>
-        <h3 className={style.h3Heading}>Types of Gypsum Board</h3>
-        <br></br>
-        <br></br>
-        <h4 className={style.h4Heading}>1. Drywall White Board</h4>
-        <p className={style.text2}>
-          Typically, drywall has a brown side and a white side. It is available
-          in several sizes and thicknesses ranging from 3/8 inches to one inch,
-          making it perhaps the most affordable drywall variety. This is the
-          most popular form and often comes in four by eight-foot panels on the
-          market.
+        <br></br><br></br>
+        <h3 className={style.h3Heading}>THE PRIMARY AREAS FOR PVC WALL PANELS APPLICATION:</h3>
+      
+        <ul className={style.text2}>
+          <li>Reception desk front function room in office</li>
+          <li>Ceiling in house decoration</li>
+          <li>Night clubs decoration</li>
+          <li>Company logo wall</li>
+          <li>Lobby backdrop</li>
+          <li>TV background</li>
+          <li>Meeting room</li>
+          <li>Kitchen room</li>
+          <li>Feature walls</li>
+          <li>Living room</li>
+          <li>Restaurant</li>
+          <li>Bedroom</li>
+          <li>Cinema</li>
+          <li>Cafes</li>
+        </ul>
+        <br></br><br></br>
+        <h3 className={style.h3Heading}>PVC Wall Panel Advatages:</h3>
+      
+         <p className={style.text2}>
+          <strong>PVC wall panels</strong> and ceiling panels are long-lasting and require little upkeep. They do not absorb liquids and are resistant to fading and colour changes. Additionally, they are mould and termite resistant.
         </p>
-        <br></br>
-        <br></br>
-        <h4 className={style.h4Heading}>2. Backing Gypsum Board</h4>
-        <p className={style.text2}>
-          In building projects, where numerous layers of gypsum board are sought
-          for excellent fire resistance, sound control, and wall strength, it
-          contains a base in several layers. It is offered on a backing board
-          with aluminium foil glued to the rear face and features grey liner
-          paper on the front and back sides. The boards are 14 to 1 inch thick,
-          4 to 16 feet long, and 16 to 48 inches broad.
-        </p>
-        <br></br>
-        <br></br>
-        <h4 className={style.h4Heading}>3. Water-Resistant Gypsum Board</h4>
-        <p className={style.text2}>
-          This kind has a gypsum core that is water-resistant and face paper
-          that is water-repellent. In bathrooms, showers, and other moist
-          spaces, it can serve as the foundation for wall tile.
-        </p>
-        <br></br>
-        <br></br>
-        <h4 className={style.h4Heading}>4. Fire-Resisting Gypsum Board</h4>
-        <p className={style.text2}>
-          Due to the peculiar behaviour of the gypsum core when exposed to fire,
-          a fire-resisting gypsum board offers effective fire protection in
-          structures. When a building element protected by a fire-resistant
-          gypsum board is exposed to flames, the chemically mixed water is
-          gradually liberated as water vapour. When a board or gypsum finish is
-          continually exposed to a temperature exceeding 49°C, this situation
-          develops.
-        </p>
-
-        <br></br>
-        <h3 className={style.h3Heading}>Advantages of Gypsum Board</h3>
-
-        <p className={style.text2}>
-          1. Provides smooth surface: If correctly executed, it is utilised in
-          plaster material to give us a smooth white finish that is devoid of
-          cracks, bumps, and scars. When it comes to indoor finishing, this is
-          the key characteristic.
+       <p className={style.text2}>
+          Your rooms are more insulated with <storng>PVC panels</storng>, which helps you maintain the correct temperature while improving the effectiveness of your air conditioners and space heaters.
         </p>
         <p className={style.text2}>
-          2. They naturally possess the ability to balance the interior climate,
-          including humidity and temperature.
-          <ul>
-            <li>It respects the environment.</li>
-            <li>It provides excellent acoustic and thermal insulation.</li>
-          </ul>
+        <strong>PVC wall panels</strong> and ceiling panels are available in a wide range of hues and designs.
+        </p>
+       
+        <p className={style.text2}>
+         
+         <strong>PVC wall panels</strong> are extremely consumer-friendly goods. The panels are the perfect DIY option because they are simple to trim to size. They install more quickly than tiles since there is no grouting involved. Any DIY customer can fit them since they are so simple to install. This also reduces the cost of a fitter.
         </p>
 
         <p className={style.text2}>
-          3. It has good aesthetic and practical qualities: The use of gypsum
-          goods, while staying within budget, encourages architects&apos;
-          inventiveness. It offers many beautiful design possibilities.
+         
+         <strong>PVC wall panels</strong> may be used throughout the house and are extremely popular in bathrooms and kitchens since they are water- and mildew-resistant , basements, attics, garages, bedrooms, living rooms, etc.
+        </p>
+
+        
+        <p className={style.text2}>
+         
+        Our panels are perfect for wrapping the walls and ceilings of homes, businesses, hotels, hospitals, labs, food processing facilities, etc.
         </p>
 
         <p className={style.text2}>
-          4. Installation is simple when using gypsum materials, such as when
-          building interior walls. All that is required is to secure the frame
-          and fill in the seams. Installation does not require expert personnel
-          and the entire procedure is quick, simple, and clean. Gypsum plaster
-          is a finishing finish that requires the least amount of painting. By
-          itself, the white finish creates a tidy impression.
-        </p>
+         
+        There are countless options, including attractive wall panels, useful shower panels, sanitary ceiling panels, etc.
+         </p>
 
-        <p className={style.text2}>
-          5. A wide range of gypsum products are offered on the market to
-          satisfy various functional and aesthetically pleasing needs. With the
-          aid of distinctive packaging provided by the makers with sufficient
-          technical expertise, the proper product may be chosen.
-        </p>
-      </article> */}
+         <p className={style.text2}>
+         
+         For wall and ceiling décor, Dumaplast panels offer a highly sanitary and clean alternative. No grout remains after installation to accumulate dirt. PVC resists mildew and stops bacterial development.
+         </p>
+
+         <p className={style.text2}>
+         
+         <strong>PVC wall panels</strong> simply need minimal maintenance. It doesnt take long to clean. The panels seamless surface prevents dirt from gathering in pores or fractures. To clean the surface, use a simple cloth. Use only non-chlorinated, non-abrasive products.
+         </p>
+
+         <p className={style.text2}>
+         
+         100% of PVC may be recycled. Any centre for recycling plastic can accept our panels.
+         </p>
+
+         <p className={style.text2}>
+         
+         When <strong>PVC wall panels</strong> are utilised in garages, basements, or other similar situations, Dumaplast panels have the benefit of being additionally insulating.
+         </p>
+
+         <p className={style.text2}>
+         
+         After installation, no additional finishing is necessary, such as painting, lacquering, varnishing, etc.
+         </p>
+          
+      </article> 
     </div>
   );
 };

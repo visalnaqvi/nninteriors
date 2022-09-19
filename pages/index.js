@@ -71,14 +71,14 @@ export default function Home() {
           "contactType": "customer service",
           "contactOption": "TollFree",
           "areaServed": "IN",
-          "availableLanguage": ["en","Hindi"]
+          "availableLanguage": ["en","Hindi"],
         },{
           "@type": "ContactPoint",
           "telephone": "9911390398",
           "contactType": "customer service",
           "contactOption": "TollFree",
           "areaServed": "IN",
-          "availableLanguage": ["en","Hindi"]
+          "availableLanguage": ["en","Hindi"],
         }],
         "sameAs": [
           "https://nninterior.com/",
@@ -87,7 +87,7 @@ export default function Home() {
           "https://in.pinterest.com/nninteriorsdelhi/",
           "https://www.pexels.com/@nn-interiors-311821055/",
           "https://www.youtube.com/channel/UCVhOmA1RmsINZQWkC9cDOzQ",
-        ]
+        ],
       }
       `}</Script>
       <Head>

@@ -2,7 +2,14 @@
     padding: 30px;
 }
 
+.wrap ul{
+    list-style-type: disc;
+    margin-left: 40px;
+}
 
+.wrap ul li{
+    margin: 10px 0;
+}
 .hero{
     display: flex;
     justify-content: center;
