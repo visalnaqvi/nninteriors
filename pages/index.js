@@ -65,21 +65,14 @@ export default function Home() {
         "alternateName": "NN Interiors - Best Construction and Interior Work Services in Delhi NCR",
         "url": "https://nninterior.com/",
         "logo": "",
-        "contactPoint": [{
+        "contactPoint":{
           "@type": "ContactPoint",
           "telephone": "9810884704",
           "contactType": "customer service",
           "contactOption": "TollFree",
           "areaServed": "IN",
           "availableLanguage": ["en","Hindi"],
-        },{
-          "@type": "ContactPoint",
-          "telephone": "9911390398",
-          "contactType": "customer service",
-          "contactOption": "TollFree",
-          "areaServed": "IN",
-          "availableLanguage": ["en","Hindi"],
-        }],
+        },
         "sameAs": [
           "https://nninterior.com/",
           "https://www.instagram.com/n.n.interiors/",
