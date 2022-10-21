@@ -62,7 +62,7 @@ export default function Home() {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "NN Interiors",
-        "alternateName": "NN Interiors - Best Construction and Interior Work Services in Delhi NCR",
+        "alternateName": "NN Interiors Best Construction and Interior Work Services in Delhi NCR",
         "url": "https://nninterior.com/",
         "logo": "",
         "contactPoint":{
@@ -71,7 +71,7 @@ export default function Home() {
           "contactType": "customer service",
           "contactOption": "TollFree",
           "areaServed": "IN",
-          "availableLanguage": ["en","Hindi"],
+          "availableLanguage": ["en","Hindi"]
         },
         "sameAs": [
           "https://nninterior.com/",
@@ -79,8 +79,8 @@ export default function Home() {
           "https://www.facebook.com/nninteriors.delhi/",
           "https://in.pinterest.com/nninteriorsdelhi/",
           "https://www.pexels.com/@nn-interiors-311821055/",
-          "https://www.youtube.com/channel/UCVhOmA1RmsINZQWkC9cDOzQ",
-        ],
+          "https://www.youtube.com/channel/UCVhOmA1RmsINZQWkC9cDOzQ"
+        ]
       }
       `}</Script>
       <Head>
